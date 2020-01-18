@@ -57,7 +57,7 @@ function createRouter(db){
               res.send({'token': token});
             }
             else{
-              res.send({"code":204,"success":"user and pass does not match"}); 
+              res.send({"code":204,"success":"user and pacss does not match"}); 
             }
           }else{
             res.send({"code":204,"success":'user does not exist'})
